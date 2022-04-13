@@ -223,3 +223,7 @@ for(let dumbVar=0;dumbVar<welcometext.length;dumbVar++){
       },
       200*(dumbVar+1))
 }
+
+setTimeout(()=>{
+      document.querySelector('.image-holder').innerHTML = '<img class=\'img-shadow-class\' src=\'img.png\'>'
+},3000)
